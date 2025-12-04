@@ -11,24 +11,14 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 
 ## Program
 ```
-# Given tuple
-t = ('a', 'b', 'n', 4, 8, 12)
-
-# Check if 'n' exists
-if 'n' in t:
-    print("'n' exists in the tuple")
-else:
-    print("'n' does NOT exist in the tuple")
-
-# Check if 8 exists
-if 8 in t:
-    print("8 exists in the tuple")
-else:
-    print("8 does NOT exist in the tuple")
+t = ("s", 8, "a", "v", "n", "g", "u", "r", "c", "e")
+print(8 in t)
+print('n' in t)
 ```
 
 ## Output
-<img width="410" height="165" alt="Screenshot 2025-11-20 150644" src="https://github.com/user-attachments/assets/a34c2f5d-df56-4498-8e90-9963c4e3df97" />
+<img width="413" height="220" alt="image" src="https://github.com/user-attachments/assets/c8d51aba-c729-4ac6-b5b4-67e22d9ec2a9" />
+
 
 
 ## Result
