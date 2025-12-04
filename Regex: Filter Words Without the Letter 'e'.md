@@ -15,21 +15,23 @@ To write a Python program that filters out and returns all elements from a list 
 
 ## Program
 ```
-import re
-
-l1 = []   # Empty list to store results
-
 items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
-
+l1,l2=[],[]
 for i in items:
-    if not re.search(r"e", i):   # Check if 'e' is NOT present
-        l1.append(i)
+    for x in i:
+        if x=="e":
+            l1.append(i)
+            break
+for a in items:
+    if a not in l1:
+        l2.append(a)
+print(l2)
 
-print("Filtered list:", l1)
 
 ```
 ## Output
-<img width="444" height="159" alt="Screenshot 2025-11-20 145319" src="https://github.com/user-attachments/assets/262a583b-c8b1-4609-9435-4e1e8878e341" />
+<img width="963" height="223" alt="image" src="https://github.com/user-attachments/assets/45d49cdd-f506-4a69-ba1f-b70175009196" />
+
 
 
 ## Result
