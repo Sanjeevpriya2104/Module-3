@@ -17,28 +17,13 @@ To write a Python program that accepts a string and removes the character at a s
 ## Program
 ```
 def remove(s):
-    n = int(input("Enter the index to remove: "))
-    a = ""   # Empty string to store result
-
-    for i in range(len(s)):
-        if i != n:             # Skip the character at index n
-            a += s[i]
-
-    return a
-
-
-# Input from user
-string = input("Enter a string: ")
-
-# Calling the function
-result = remove(string)
-
-# Printing final output
-print("Modified string:", result)
+    new_string = s[:3] +s[4:]
+    print(new_string)
 ```
 
 ## Output
-<img width="428" height="178" alt="Screenshot 2025-11-20 145859" src="https://github.com/user-attachments/assets/ece33075-f9b1-4c2a-9b4b-8373caf3feca" />
+<img width="983" height="276" alt="image" src="https://github.com/user-attachments/assets/47c80a2c-f070-4697-b9c3-6b3c96934306" />
+
 
 ## Result
 programme executed successfully
